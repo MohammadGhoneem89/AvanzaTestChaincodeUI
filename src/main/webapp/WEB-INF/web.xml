@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TransferAPIClient</servlet-name>
+  	<display-name>TransferAPIClient</display-name>
+  	<description></description>
+  	<servlet-class>Controller.TransferAPIClient</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewParticipants</servlet-name>
+  	<display-name>ViewParticipants</display-name>
+  	<description></description>
+  	<servlet-class>Controller.ViewParticipants</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewParticipantsInfo</servlet-name>
+  	<display-name>ViewParticipantsInfo</display-name>
+  	<description></description>
+  	<servlet-class>Controller.ViewParticipants</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewParties</servlet-name>
+  	<display-name>ViewParties</display-name>
+  	<description></description>
+  	<servlet-class>Controller.ViewParties</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TransferAPIClient</servlet-name>
+  	<url-pattern>/TransferAPIClient</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewParticipants</servlet-name>
+  	<url-pattern>/ViewParticipants</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewParticipantsInfo</servlet-name>
+  	<url-pattern>/ViewParticipantsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewParties</servlet-name>
+  	<url-pattern>/ViewParties</url-pattern>
+  </servlet-mapping>
+</web-app>
